@@ -1,38 +1,48 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
+nav.background.navbar.navbar-expand-lg.navbar-light.bg-transparent {
+  background-image: url("./images//Rectangle\ 5.png");
+}
+button.navbar-toggler.collapsed {
+  background: linear-gradient(94.19deg, #70c0c9 0%, #03424a 100%);
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeLarge.searchicon.css-tzssek-MuiSvgIcon-root {
+  color: rgb(199, 224, 226);
+  border: 1px solid rgb(199, 224, 226);
+  border-radius: 50px;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+a.navarea.nav-link {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid #c7e0e2;
+  box-sizing: border-box;
+  margin: 10px 0px 10px;
+  border-radius: 5px;
+  width: 166px;
+  height: 46px;
   text-align: center;
+  color: #c7e0e2;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.navarea2.nav-link {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid #c7e0e2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 166px;
+  margin: 10px 0px 10px;
+  height: 46px;
+  text-align: center;
+  color: #ffff;
+  background: linear-gradient(94.19deg, #70c0c9 0%, #03424a 100%);
+  border: 1px solid #70c0c9;
+  box-shadow: 0px 0px 12px 4px rgba(144, 221, 230, 0.2);
 }
